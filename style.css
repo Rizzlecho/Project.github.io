@@ -41,7 +41,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: #52515a;
-    background: #ffffff;
+    background: url("img/maxresdefault.png");
+    background-size: cover;
     padding: 0;
     margin: 0;
 }
@@ -101,9 +102,9 @@ header {
     padding: 1rem 0 .5rem;
     margin: 0 1rem;
     line-height: 1.3rem;
-    color: #000;
+    color: #fff;
     text-decoration: none;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid transparent;
 }
 
 .menu-wrapper a:hover {
