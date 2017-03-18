@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
     display: block;
 }
 
@@ -36,14 +36,11 @@ body {
     color: #fffeff;
     padding: 0;
     margin: 0;
-    background: url("https://d2ogrdw2mh0rsl.cloudfront.net/production/images/static/features/gallery-background.jpg");
-    background-repeat: repeat-x;
-    background-size: auto 100%;
 
 }
 
 .parallax {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 100%), url("img/krasi.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 100%), url("img/ivankirkov.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,24 +87,46 @@ header h1:hover {
     color: white;
 }
 
+header img {
+    width: 130px;
+    height: auto;
+    padding-left:35px;
+    padding-top: 15px;
+    position: absolute;
+}
+
 .joke-container {
     /*margin: 0 auto;*/
     padding: 200px 0px 0px 100px;
     width: 380px;
 }
 
-.humor-types {
-    margin:0 auto;
-    max-width: 1600px;
-    /*background: red;*/
+.comedian-section {
+    background: url("https://d2ogrdw2mh0rsl.cloudfront.net/production/images/static/features/gallery-background.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
 }
 
-.humor-types .humor-container{
-    display: inline-block;
+.comedians {
+    margin:0 auto;
+    max-width: 1700px;
+}
+
+.comedians .comedian-container{
+    border: 1px solid blue;
     padding-bottom: 100px;
 }
 
-.humor-types h1 {
+.comedians .comedian-container article {
+    display: inline-block;
+    width: 350px;
+    background: grey;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 17px;
+}
+
+.comedians h1 {
     color: black;
     margin-top: 0;
     padding-top: 40px;
@@ -118,37 +137,19 @@ header h1:hover {
     font-family:"Source Sans Pro", serif;
 }
 
-.humor-types img {
-    width: 30%;
-    height: auto;
-    min-width:30%;
-    margin-left: 50px;
-    margin-top: 17px;
+.comedians img {
+    width: 300px;
+    height: 300px;
     box-shadow: 6px 6px 25px -2px rgba(0, 0, 0, 0.63);
     position: relative;
     transition: all 0.3s ease;
+    border-radius: 50%;
 }
 
-.humor-types img:hover:nth-of-type(1){
+.comedians img:hover{
     transform: scale(1.05);
 }
 
-.humor-types img:hover:nth-of-type(2){
-    transform: scale(1.05);}
-
-.humor-types img:hover:nth-of-type(3){
-    transform: scale(1.05);}
-
-.white {
-    background: white;
-    color: black;
-    position: relative;
-    height: auto;
-    width: 30%;
-    top: 120px;
-    left: 50px;
-
-}
 
 
 
