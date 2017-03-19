@@ -76,31 +76,68 @@ li {
 }
 
 header h1 {
-    font-size: 30px;
-    font-weight: 300;
-    color: #cfcfcf;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Lato, serif;
+    color: #ffffff;
     padding-bottom: 13px;
     transition: all 0.3s ease;
+    text-shadow: 1px 1px 6px rgb(136, 136, 136);
+
 }
 
 header h1:hover {
-    border-bottom: 1px solid white;
     transition: all 0.3s ease;
     color: white;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: -50px;
+    transition: all 0.3s ease;
 }
 
 header img {
     width: 130px;
     height: auto;
-    padding-left:35px;
+    padding-left: 35px;
     padding-top: 15px;
     position: absolute;
+    transition: all 0.3s ease;
+    animation: fall 0.5s infinite;
+}
+
+header img:hover {
+    transform: scale(1.1) rotate(90deg);
 }
 
 .joke-container {
-    /*margin: 0 auto;*/
-    padding: 200px 0px 0px 100px;
-    width: 380px;
+    margin: 0 auto;
+    padding: 200px 0px 0px 0px;
+    max-width: 700px;
+    text-align: center;
+    /*border: 1px solid white;*/
+}
+
+.button {
+    margin: 0 auto;
+    background: #393939;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px -2px rgb(23, 23, 23);
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.button:hover{
+    background: rgba(72, 72, 72, 0.87);
 }
 
 .comedian-section {
@@ -110,11 +147,11 @@ header img {
 }
 
 .comedians {
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 1700px;
 }
 
-.comedians .comedian-container{
+.comedians .comedian-container {
     /*border: 1px solid blue;*/
     padding-bottom: 100px;
 }
@@ -122,12 +159,21 @@ header img {
 .comedians .comedian-container article {
     display: inline-block;
     width: 350px;
-    /*background: rgba(30, 30, 30, 0.49);*/
+    /*background: url("img/pattern.jpg");*/
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid #e4e4e4;
     text-align: center;
     margin-left: 60px;
-    margin-top: 17px;
+    margin-top: 60px;
     transition: all 0.2s ease;
     border-radius: 10px;
+
+}
+
+.comedians article:hover {
+    transform: scale(1.05);
+    /*border: none;*/
+    box-shadow: 6px 6px 25px -2px rgba(0, 0, 0, 0.33);
 }
 
 .comedians h1 {
@@ -137,21 +183,32 @@ header img {
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight:300;
-    font-family:"Source Sans Pro", serif;
+    font-weight: 300;
+    font-family: "Source Sans Pro", serif;
 }
 
 .comedians h2 {
-    font-family:"Source Sans Pro", serif;
+    font-family: "Source Sans Pro", serif;
     text-transform: uppercase;
-    font-weight:400;
+    font-weight: 400;
     color: #333333;
+    text-align: center;
+}
+
+.comedians h3 {
+    font-family: "Source Sans Pro", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 20px;
 }
 
 .comedians p {
-    font-family:"Source Sans Pro", serif;
+    font-family: "Source Sans Pro", serif;
     text-transform: uppercase;
-    font-weight:700;
+    font-weight: 700;
     color: #333333;
     margin-top: -12px;
 }
@@ -159,17 +216,18 @@ header img {
 .comedians img {
     width: 300px;
     height: 300px;
-    box-shadow: 6px 6px 25px -2px rgba(0, 0, 0, 0.63);
+
     position: relative;
     transition: all 0.3s ease;
     border-radius: 50%;
     margin-top: 20px;
 }
 
-.comedians article:hover{
-    transform: scale(1.05);
+.schedule-container {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-bottom: 50px;
 }
-
 
 .schedule {
     background: url("img/The-UP-Comedy-Club-in-Chicago.jpg");
@@ -179,10 +237,72 @@ header img {
     background-repeat: no-repeat;
 
     margin-top: -20px;
-    margin-bottom: -20px;
 }
 
+.schedule h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
 
+.schedule article {
+    display: inline-block;
+    padding: 10px;
+}
+
+.schedule .time-schedule-container article:nth-of-type(1) {
+    border-right: 1px dotted white;
+}
+
+.schedule article:nth-of-type(1) {
+    width: 130px;
+}
+
+.schedule article h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: -22px;
+    margin-left: 15px;
+}
+
+.schedule article p {
+    font-size: 20px;
+}
+
+.schedule .time-schedule-container {
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+    padding: 20px 0 0 20px;
+}
+
+.schedule .time-schedule-container article:nth-of-type(1) {
+    width: 80px;
+}
+
+.wednesday-container {
+    width: 660px;
+    display: inline-block;
+    height: 250px;
+    transition: all 0.1s linear;
+    margin-top: 50px;
+}
+
+.wednesday-container:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.77);
+}
+
+.wednesday-container:hover .time-schedule-container article:nth-of-type(1) {
+    border-right: 1px dotted black;
+}
 
 
 

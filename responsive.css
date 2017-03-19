@@ -1,0 +1,37 @@
+@media all and (max-width: 1400px) {
+    body {
+        /*color: green;*/
+    }
+
+    /* COMEDIANS */
+.comedians {
+    max-width: 900px;
+}
+
+
+
+
+
+    /*  SCHEDULE  */
+    .wednesday-container {
+        width: 600px;
+        height: 200px;
+    }
+
+    .schedule-container {
+        max-width: 550px;
+    }
+
+    .schedule article h1 {
+        font-size: 45px;
+    }
+
+    .schedule article p {
+        font-size: 17px;
+    }
+
+    .schedule .time-schedule-container {
+        width: 450px;
+        padding: 0;
+    }
+}
