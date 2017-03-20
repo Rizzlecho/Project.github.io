@@ -282,3 +282,22 @@
     }
 
 }
+
+@media only screen and (max-width: 310px){
+    .schedule article h1 {
+        font-size: 30px;
+        /*margin-bottom: -17px;*/
+    }
+
+    .schedule article p {
+        font-size: 9px;
+    }
+
+    .schedule-container {
+        max-width: 280px;
+    }
+
+    .schedule article:nth-of-type(1) {
+        width: 45px;
+    }
+}
