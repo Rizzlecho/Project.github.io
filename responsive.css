@@ -58,10 +58,55 @@
 }
 
 
-
 @media only screen and (max-width : 1050px){
     .footer-social {
         padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    /* COMEDIANS */
+    .comedians {
+        max-width: 580px;
+    }
+
+    .comedians .comedian-container article {
+        width: 450px;
+    }
+
+    .comedians .comedian-container article h2{
+        font-size: 34px;
+    }
+
+    .comedians img {
+        width: 400px;
+        height: 400px;
+    }
+
+    /*TODO DROPDOWN NAVBAR*/
+
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #283744;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
     }
 }
 
@@ -95,28 +140,122 @@
     }
 }
 
+@media only screen and (max-width : 670px) {
+    .fun-container {
+        max-width: 450px;
+        padding: 20px;
+    }
+
+    /*  SCHEDULE  */
+    .wednesday-container {
+        width: 455px;
+        height: 150px;
+    }
+
+    .schedule-container {
+        max-width: 500px;
+    }
+
+    .schedule article h1 {
+        font-size: 35px;
+    }
+
+    .schedule article p {
+        font-size: 13px;
+    }
+
+    .schedule .time-schedule-container {
+        width: 340px;
+        padding: 0;
+    }
+
+    .schedule .time-schedule-container article:nth-of-type(1) {
+        width: 59px;
+    }
+
+    .schedule article:nth-of-type(1) {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .comedians .comedian-container article {
+        width: 101%;
+    }
+    .comedians img {
+        width: 89%;
+        height: 84%;
+    }
+    .comedians .comedian-container article h2 {
+        font-size: 159%;
+    }
+    .comedians p {
+        font-size: 94%;
+    }
+    .comedians .comedian-container article {
+        margin-left: 0;
+    }
+    .comedians {
+        max-width: 425px;
+    }
+}
+
 @media only screen and (max-width : 480px) {
-    nav {
-        border-bottom: 0;
+    header h1 {
+        font-size:55px;
     }
-    nav ul {
+
+    .fun-container {
+        max-width: 300px;
+    }
+
+    .schedule article h1 {
+        font-size: 35px;
+        margin-bottom: -17px;
+    }
+
+    .schedule article p {
+        font-size: 11px;
+    }
+
+    .wednesday-container {
         display: none;
-        height: auto;
     }
-    nav a#pull {
+
+    .responsive-day-container {
         display: block;
-        background-color: #283744;
+    }
+
+    .schedule-container {
+        max-width: 308px;
+    }
+
+    .responsive-day-container{
+        transition: all 0.1s linear;
+    }
+
+    .responsive-day-container:hover {
+        color:black;
+        background: rgba(255, 255, 255, 0.77);
+    }
+
+    .schedule article:nth-of-type(1) {
+        width: 60px;
+    }
+
+    .footer-social ul {
+        width: 232px;
+    }
+    .footer-apps ul{
+        width: 175px;
+    }
+
+    .comedians {
+        max-width: 283px;
+    }
+
+    .comedians .comedian-container article {
         width: 100%;
-        position: relative;
     }
-    nav a#pull:after {
-        content:"";
-        background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 15px;
-        top: 10px;
-    }
+
 }

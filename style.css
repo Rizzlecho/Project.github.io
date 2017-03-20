@@ -304,6 +304,15 @@ header img:hover {
     border-right: 1px dotted black;
 }
 
+
+.responsive-day-container {
+    display: none;
+}
+
+
+
+
+
 .having-fun {
     background: url("img/image.jpg");
     background-size: cover;
@@ -520,6 +529,15 @@ footer article{
 
 .contacts p:hover {
     color: white;
+}
+
+footer h3 {
+    padding-bottom: 17px;
+    color: #94998d;
+    text-align: center;
+    font-weight:400;
+    margin: 0;
+    font-size: 16px;
 }
 
 
