@@ -7,20 +7,42 @@
     <link rel="stylesheet" href="responsive.css">
 
     <title>Comedy Club Sofia</title>
+    <script src="jquery-3.2.0.min.js"></script>
+
+    <script>$(function() {
+        // This will select everything with the class smoothScroll
+        // This should prevent problems with carousel, scrollspy, etc...
+        $('.smoothScroll').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 800); // The number here represents the speed of the scroll in milliseconds
+                    return false;
+                }
+            }
+        });
+    });
+
+    // Change the speed to whatever you want
+    // Personally i think 1000 is too much
+    // Try 800 or below, it seems not too much but it will make a difference</script>
 
 </head>
 <body>
 
 <header class="parallax">
-    <a href="#"><img src="img/comedy-club-logo.png" alt="comedy-club"></a>
+    <a href="#" class="link-img"><img src="img/comedy-club-logo.png" alt="comedy-club"></a>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Comedians</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Open Mic</a></li>
-            <li><a href="#">Faq</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="smoothScroll" href="#">Home</a></li>
+            <li><a class="smoothScroll" href="#comedians">Comedians</a></li>
+            <li><a class="smoothScroll" href="#schedule">Schedule</a></li>
+            <li><a class="smoothScroll" href="#">Open Mic</a></li>
+            <li><a class="smoothScroll" href="#">Faq</a></li>
+            <li><a class="smoothScroll" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -34,7 +56,7 @@
 </header>
 
 <main>
-    <section class="comedian-section">
+    <section class="comedian-section" id="comedians">
         <div class="comedians">
             <h1>Comedians</h1>
             <h3>The Ones Making All The Fun Happen</h3>
@@ -66,7 +88,7 @@
         </div>
     </section>
 
-    <section class="schedule">
+    <section class="schedule" id="schedule">
         <h1>Schedule</h1>
 
         <div class="schedule-container">
@@ -178,7 +200,7 @@
 
 </main>
 
-<footer>
+<footer id="contact">
     <div class="footer-container">
         <!-- Begin Social Column -->
         <article>

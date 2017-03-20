@@ -146,6 +146,11 @@ header img:hover {
     background-size: auto 100%;
 }
 
+#comedians {
+    transition: all 1s linear;
+}
+
+
 .comedians {
     margin: 0 auto;
     max-width: 1700px;

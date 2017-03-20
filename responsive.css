@@ -83,31 +83,64 @@
 
     /*TODO DROPDOWN NAVBAR*/
     nav {
-        border-bottom: 0;
+        position: absolute;
+        height: auto;
+        display: none;
+        background: rgb(54, 54, 54);
+        width: 100%;
+        transition: all 0.2s ease;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
     }
 
     nav ul {
-        display: none;
-        height: auto;
+        padding: 0;
+        margin: 0;
     }
 
-    nav a#pull {
-        display: block;
-        background-color: #283744;
+    nav ul li {
+        border: 1px solid rgb(64, 63, 63);
         width: 100%;
-        position: relative;
+        text-align: center;
+        transition: all 0.1s ease;
     }
 
-    nav a#pull:after {
-        content: "";
-        background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 15px;
-        top: 10px;
+    header:hover nav {
+        display: block;
+        transition: all 0.2s ease;
+        width: 100%;
+        cursor: pointer;
     }
+
+    nav ul li:hover a {
+        color: black;
+    }
+
+    nav ul li:hover {
+        background: #f4f4f4;
+    }
+
+    header img {
+        z-index: 3;
+    }
+
+    /*nav a#pull {*/
+    /*display: block;*/
+    /*background-color: #283744;*/
+    /*width: 100%;*/
+    /*position: relative;*/
+    /*}*/
+    /*nav a#pull:after {*/
+    /*content: "";*/
+    /*background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+    /*top: 10px;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 860px) {
@@ -283,7 +316,7 @@
 
 }
 
-@media only screen and (max-width: 310px){
+@media only screen and (max-width: 310px) {
     .schedule article h1 {
         font-size: 30px;
         /*margin-bottom: -17px;*/
