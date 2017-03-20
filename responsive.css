@@ -32,7 +32,6 @@
         max-width: 900px;
     }
 
-
     /*  SCHEDULE  */
     .wednesday-container {
         width: 600px;
@@ -57,14 +56,13 @@
     }
 }
 
-
-@media only screen and (max-width : 1050px){
+@media only screen and (max-width: 1050px) {
     .footer-social {
         padding-left: 40px;
     }
 }
 
-@media only screen and (max-width : 900px){
+@media only screen and (max-width: 900px) {
     /* COMEDIANS */
     .comedians {
         max-width: 580px;
@@ -74,7 +72,7 @@
         width: 450px;
     }
 
-    .comedians .comedian-container article h2{
+    .comedians .comedian-container article h2 {
         font-size: 34px;
     }
 
@@ -84,22 +82,24 @@
     }
 
     /*TODO DROPDOWN NAVBAR*/
-
     nav {
         border-bottom: 0;
     }
+
     nav ul {
         display: none;
         height: auto;
     }
+
     nav a#pull {
         display: block;
         background-color: #283744;
         width: 100%;
         position: relative;
     }
+
     nav a#pull:after {
-        content:"";
+        content: "";
         background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;
         width: 30px;
         height: 30px;
@@ -110,7 +110,7 @@
     }
 }
 
-@media only screen and (max-width : 860px) {
+@media only screen and (max-width: 860px) {
     .footer-container {
         transform: scale(0.8);
         max-width: 900px;
@@ -125,12 +125,13 @@
     }
 }
 
-@media only screen and (max-width : 790px){
+@media only screen and (max-width: 790px) {
 
     .footer-container {
         transform: scale(1);
         max-width: 200px;
     }
+
     .footer-container article {
         display: block;
     }
@@ -140,7 +141,13 @@
     }
 }
 
-@media only screen and (max-width : 670px) {
+@media only screen and (max-width: 670px) {
+    header img {
+        width: 92px;
+        height: auto;
+        padding-left: 12px;
+    }
+
     .fun-container {
         max-width: 450px;
         padding: 20px;
@@ -178,31 +185,42 @@
     }
 }
 
-@media only screen and (max-width : 560px) {
+@media only screen and (max-width: 560px) {
     .comedians .comedian-container article {
         width: 101%;
     }
+
     .comedians img {
         width: 89%;
         height: 84%;
     }
+
     .comedians .comedian-container article h2 {
         font-size: 159%;
     }
+
     .comedians p {
         font-size: 94%;
     }
+
     .comedians .comedian-container article {
         margin-left: 0;
     }
+
     .comedians {
         max-width: 425px;
     }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
+    header img {
+        width: 72px;
+        height: auto;
+        padding-left: 12px;
+    }
+
     header h1 {
-        font-size:55px;
+        font-size: 55px;
     }
 
     .fun-container {
@@ -230,12 +248,16 @@
         max-width: 308px;
     }
 
-    .responsive-day-container{
+    .schedule article {
+        width: 300px;
+    }
+
+    .responsive-day-container {
         transition: all 0.1s linear;
     }
 
     .responsive-day-container:hover {
-        color:black;
+        color: black;
         background: rgba(255, 255, 255, 0.77);
     }
 
@@ -246,7 +268,8 @@
     .footer-social ul {
         width: 232px;
     }
-    .footer-apps ul{
+
+    .footer-apps ul {
         width: 175px;
     }
 

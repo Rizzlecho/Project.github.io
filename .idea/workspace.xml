@@ -55,21 +55,21 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1055">
-              <caret line="180" column="43" lean-forward="false" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
+            <state relative-caret-position="474">
+              <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
               <folding>
                 <element signature="e#43#185#0" expanded="false" />
                 <element signature="e#215#249#0" expanded="false" />
                 <element signature="e#306#370#0" expanded="false" />
                 <element signature="e#399#473#0" expanded="false" />
                 <element signature="e#531#571#0" expanded="false" />
-                <element signature="e#573#1047#0" expanded="false" />
-                <element signature="e#1050#1151#0" expanded="false" />
-                <element signature="e#2133#2376#0" expanded="false" />
-                <element signature="e#2378#2623#0" expanded="false" />
-                <element signature="e#2625#3273#0" expanded="false" />
-                <element signature="e#3275#3713#0" expanded="false" />
-                <element signature="e#3715#4668#0" expanded="false" />
+                <element signature="e#573#1046#0" expanded="false" />
+                <element signature="e#1048#1149#0" expanded="false" />
+                <element signature="e#1151#2133#0" expanded="false" />
+                <element signature="e#2135#2377#0" expanded="false" />
+                <element signature="e#2379#2625#0" expanded="false" />
+                <element signature="e#3371#3813#0" expanded="false" />
+                <element signature="e#3815#4920#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -254,12 +254,12 @@
       <workItem from="1489767493578" duration="427000" />
       <workItem from="1489844155610" duration="22058000" />
       <workItem from="1489914930998" duration="37674000" />
-      <workItem from="1490000105775" duration="8982000" />
+      <workItem from="1490000105775" duration="9697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72350000" />
+    <option name="totallyTimeSpent" value="73065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -352,13 +352,13 @@
             <element signature="e#306#370#0" expanded="false" />
             <element signature="e#399#473#0" expanded="false" />
             <element signature="e#531#571#0" expanded="false" />
-            <element signature="e#573#1047#0" expanded="false" />
-            <element signature="e#1050#1151#0" expanded="false" />
-            <element signature="e#2133#2376#0" expanded="false" />
-            <element signature="e#2378#2623#0" expanded="false" />
-            <element signature="e#2625#3273#0" expanded="false" />
-            <element signature="e#3275#3713#0" expanded="false" />
-            <element signature="e#3715#4668#0" expanded="false" />
+            <element signature="e#573#1046#0" expanded="false" />
+            <element signature="e#1048#1149#0" expanded="false" />
+            <element signature="e#1151#2133#0" expanded="false" />
+            <element signature="e#2135#2377#0" expanded="false" />
+            <element signature="e#2379#2625#0" expanded="false" />
+            <element signature="e#3371#3813#0" expanded="false" />
+            <element signature="e#3815#4920#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,21 +495,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="180" column="43" lean-forward="false" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
+        <state relative-caret-position="474">
+          <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
           <folding>
             <element signature="e#43#185#0" expanded="false" />
             <element signature="e#215#249#0" expanded="false" />
             <element signature="e#306#370#0" expanded="false" />
             <element signature="e#399#473#0" expanded="false" />
             <element signature="e#531#571#0" expanded="false" />
-            <element signature="e#573#1047#0" expanded="false" />
-            <element signature="e#1050#1151#0" expanded="false" />
-            <element signature="e#2133#2376#0" expanded="false" />
-            <element signature="e#2378#2623#0" expanded="false" />
-            <element signature="e#2625#3273#0" expanded="false" />
-            <element signature="e#3275#3713#0" expanded="false" />
-            <element signature="e#3715#4668#0" expanded="false" />
+            <element signature="e#573#1046#0" expanded="false" />
+            <element signature="e#1048#1149#0" expanded="false" />
+            <element signature="e#1151#2133#0" expanded="false" />
+            <element signature="e#2135#2377#0" expanded="false" />
+            <element signature="e#2379#2625#0" expanded="false" />
+            <element signature="e#3371#3813#0" expanded="false" />
+            <element signature="e#3815#4920#0" expanded="false" />
           </folding>
         </state>
       </provider>
