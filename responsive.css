@@ -1,15 +1,36 @@
-@media all and (max-width: 1400px) {
-    body {
-        /*color: green;*/
-    }
-
-    /* COMEDIANS */
-.comedians {
-    max-width: 900px;
+/* Scrollbar Chrome*/
+*::-webkit-scrollbar {
+    width: 10px ! important;
+    height: 10px ! important;
+    background: #1e1e1e ! important;
+    border: 1px solid #252525 ! important;
 }
 
+*::-webkit-scrollbar-button {
+    display: none ! important;
+}
 
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-track {
+    border: 0 ! important;
+    box-shadow: none ! important;
+}
 
+*::-webkit-scrollbar-thumb {
+    min-height: 28px ! important;
+    background: #3a3a3a ! important;
+}
+
+*::-webkit-scrollbar-corner,
+*::-webkit-scrollbar-track {
+    background: #292929 ! important;
+}
+
+@media all and (max-width: 1400px) {
+    /* COMEDIANS */
+    .comedians {
+        max-width: 900px;
+    }
 
 
     /*  SCHEDULE  */
@@ -33,5 +54,69 @@
     .schedule .time-schedule-container {
         width: 450px;
         padding: 0;
+    }
+}
+
+
+
+@media only screen and (max-width : 1050px){
+    .footer-social {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width : 860px) {
+    .footer-container {
+        transform: scale(0.8);
+        max-width: 900px;
+    }
+
+    .footer-social {
+        padding-left: 0;
+    }
+
+    .chargeback {
+        transform: scale(0.96);
+    }
+}
+
+@media only screen and (max-width : 790px){
+
+    .footer-container {
+        transform: scale(1);
+        max-width: 200px;
+    }
+    .footer-container article {
+        display: block;
+    }
+
+    .contacts {
+        padding-bottom: 30px
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #283744;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
     }
 }

@@ -70,7 +70,7 @@ a:hover {
 
 }
 
-li {
+nav li {
     display: inline-block;
     padding: 15px 25px 15px 15px;
 }
@@ -307,9 +307,9 @@ header img:hover {
 .having-fun {
     background: url("img/image.jpg");
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
     margin-top: -20px;
     text-align: center;
 }
@@ -318,7 +318,7 @@ header img:hover {
     margin: 0 auto;
     color: black;
     padding: 20px 0 20px 0;
-    width: 600px;
+    max-width: 600px;
 }
 
 .chargeback {
@@ -326,6 +326,7 @@ header img:hover {
     padding: 10px 0 10px 0;
     margin: 40px 0 40px 0;
     text-transform: uppercase;
+    transition: 0.05s linear
 }
 
 .chargeback p {
@@ -333,8 +334,194 @@ header img:hover {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333;
-    font-size: 15px;
+    font-size: 1rem;
 }
+
+.chargeback:hover {
+    background: rgba(47, 47, 47, 0.78);
+    color: white;
+    cursor: pointer;
+}
+
+.chargeback:hover p {
+    color: white;
+}
+
+
+footer {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background: #282e28;
+}
+
+footer article{
+    display: inline-block;
+}
+
+.footer-social ul {
+    width: 280px;
+    padding: 0;
+}
+
+.footer-social {
+    padding:20px 0 50px 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 45px;
+    background: #484848;
+    padding: 6px;
+    text-align: center;
+    transition: all 0.1s linear;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.footer-social ul li:hover{
+    cursor: pointer;
+}
+
+.footer-social ul li:hover:nth-of-type(1) {
+    background: #3C5B97;
+}
+
+.footer-social ul li:hover:nth-of-type(2) {
+    background: #BE1D19;
+}
+
+.footer-social ul li:hover:nth-of-type(3) {
+    background: #2BA7DF;
+}
+
+.footer-social ul li:hover:nth-of-type(4) {
+    background:  linear-gradient(
+            200deg, #d047d1, #ff0000,    #ffff00);;
+}
+
+.footer-social ul li:hover:nth-of-type(5) {
+    background: #0196C1;
+}
+
+.footer-social ul li:hover:nth-of-type(6) {
+    background: #C91F27;
+}
+
+.footer-social ul li:hover:nth-of-type(7) {
+    background: #354f6a;
+}
+
+.footer-social ul li:hover:nth-of-type(8) {
+    background: linear-gradient(to bottom, #ea614e 0, #b8433c 100%);
+}
+
+.footer-social ul li:hover a{
+    color: white;
+}
+
+.footer-social ul li a{
+    font-size: 25px;
+}
+
+.footer-social h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+
+
+
+.footer-apps ul {
+    width: 280px;
+    padding: 0;
+}
+
+.footer-apps {
+    padding:20px 0 50px 3vw;
+    vertical-align: top;
+    margin-top: -15px;
+}
+
+.footer-apps ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 45px;
+    background: #484848;
+    padding: 6px;
+    text-align: center;
+    transition: all 0.1s linear;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.footer-apps ul li:hover{
+    cursor: pointer;
+}
+
+.footer-apps ul li:hover a{
+    color: white;
+}
+
+.footer-apps ul li a{
+    font-size: 25px;
+}
+
+.footer-apps h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.footer-apps ul li:hover:nth-of-type(1) {
+    background: #150015;
+}
+
+.footer-apps ul li:hover:nth-of-type(2) {
+    background: #85c707;
+}
+
+.footer-apps ul li:hover:nth-of-type(3) {
+    background: #2BA7DF;
+}
+
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+.contacts {
+    padding-top: 10px;
+}
+
+.contacts h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.contacts p {
+    color: #b9b9b9;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.contacts p:hover {
+    color: white;
+}
+
 
 
 
