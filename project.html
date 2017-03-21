@@ -9,10 +9,10 @@
     <title>Comedy Club Sofia</title>
     <script src="jquery-3.2.0.min.js"></script>
 
-    <script>$(function() {
+    <script>$(function () {
         // This will select everything with the class smoothScroll
         // This should prevent problems with carousel, scrollspy, etc...
-        $('.smoothScroll').click(function() {
+        $('.smoothScroll').click(function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -40,7 +40,7 @@
             <li><a class="smoothScroll" href="#">Home</a></li>
             <li><a class="smoothScroll" href="#comedians">Comedians</a></li>
             <li><a class="smoothScroll" href="#schedule">Schedule</a></li>
-            <li><a class="smoothScroll" href="#">Open Mic</a></li>
+            <li><a class="smoothScroll" href="#open-mic">Open Mic</a></li>
             <li><a class="smoothScroll" href="#">Faq</a></li>
             <li><a class="smoothScroll" href="#contact">Contact</a></li>
         </ul>
@@ -195,6 +195,25 @@
                 <h1>Not Sure You're Gonna Have Fun?</h1>
                 <p>Do not worry. We offer chargeback if you leave unsatisfied.</p>
             </div>
+        </div>
+    </section>
+
+    <section class="open-mic" id="open-mic">
+        <div class="open-mic-container">
+        <article>
+            <h1>Open Mic</h1>
+        </article>
+
+        <article>
+            <p>Tryout as a comedian. Come to our dinners Open Mic. Open Mic is one of the most important traditions in
+                the
+                stand-up
+                comedy. If you survive 10 minutes on the stage, the player fights with the other survivors are for 100
+                levas
+                and the you have the
+                chance to become a professional comedian. To endure 10 minutes of Open Mic however, is not an easy task.
+            </p>
+        </article>
         </div>
     </section>
 

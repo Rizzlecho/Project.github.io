@@ -319,7 +319,7 @@ header img:hover {
 
 
 .having-fun {
-    background: url("img/image.jpg");
+    background: url("img/dark-wood-texture-design-ideas-1.jpg");
     background-size: cover;
     /*background-attachment: fixed;*/
     /*background-position: center;*/
@@ -547,4 +547,37 @@ footer h3 {
 
 
 
+.open-mic {
+    background: url("img/open-mic.jpg") no-repeat;
+    padding: 50px;
+}
+
+.open-mic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.open-mic h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 660%;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 9px rgba(138, 138, 133, 1);
+    margin-right: 8vw;
+}
+
+.open-mic p {
+    max-width: 500px;
+    font-family: "Lato", serif;
+    text-transform: none;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(77, 77, 77, 0.72);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.open-mic article {
+    display: inline-block;
+}
 
