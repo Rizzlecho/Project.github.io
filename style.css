@@ -228,10 +228,14 @@ header img:hover {
     margin-top: 20px;
 }
 
+hr {
+    max-width: 1250px;
+}
+
 .schedule-container {
     margin: 0 auto;
     max-width: 1300px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .schedule {
@@ -254,6 +258,7 @@ header img:hover {
     padding-top: 20px;
     margin-bottom: 2px;
 }
+
 
 .schedule article {
     display: inline-block;
@@ -296,7 +301,7 @@ header img:hover {
     width: 660px;
     display: inline-block;
     height: 250px;
-    transition: all 0.1s linear;
+    transition: all 0.3s linear;
     margin-top: 50px;
 }
 
@@ -340,7 +345,7 @@ header img:hover {
     padding: 10px 0 10px 0;
     margin: 40px 0 40px 0;
     text-transform: uppercase;
-    transition: 0.05s linear
+    transition: 0.3s ease-in-out;
 }
 
 .chargeback p {
@@ -349,6 +354,7 @@ header img:hover {
     font-weight: 700;
     color: #333333;
     font-size: 1rem;
+    transition: all 0.3s;
 }
 
 .chargeback:hover {
@@ -549,6 +555,7 @@ footer h3 {
 
 .open-mic {
     background: url("img/open-mic.jpg") no-repeat;
+    background-size: cover;
     padding: 50px;
 }
 
