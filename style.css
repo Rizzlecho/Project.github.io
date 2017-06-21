@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -622,3 +623,629 @@ section.partners img {
     /*background: white;*/
 /*}*/
 
+=======
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border: none;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+em, i {
+    font-weight: 400;
+    font-style: italic;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fffeff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.parallax {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.29) 100%), url("img/ivankirkov.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+nav {
+    padding: 3px 50px 10px 10px;
+    float: right;
+}
+
+a {
+    letter-spacing: 1px;
+    color: #bababc;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #fffdfb;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 25px 15px 15px;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Lato, serif;
+    color: #ffffff;
+    padding-bottom: 13px;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 6px rgb(136, 136, 136);
+
+}
+
+header h1:hover {
+    transition: all 0.3s ease;
+    color: white;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: -50px;
+    transition: all 0.3s ease;
+}
+
+header img {
+    width: 130px;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 15px;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1) rotate(100deg);
+    margin-left: 15px;
+}
+
+.joke-container {
+    margin: 0 auto;
+    padding: 200px 0px 0px 0px;
+    max-width: 700px;
+    text-align: center;
+    /*border: 1px solid white;*/
+}
+
+.button {
+    margin: 0 auto;
+    background: #393939;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px -2px rgb(23, 23, 23);
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.button:hover {
+    background: rgba(72, 72, 72, 0.87);
+}
+
+.comedian-section {
+    background: url("https://d2ogrdw2mh0rsl.cloudfront.net/production/images/static/features/gallery-background.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}
+
+#comedians {
+    transition: all 1s linear;
+}
+
+
+.comedians {
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.comedians .comedian-container {
+    /*border: 1px solid blue;*/
+    padding-bottom: 100px;
+}
+
+.comedians .comedian-container article {
+    display: inline-block;
+    width: 350px;
+    /*background: url("img/pattern.jpg");*/
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 60px;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+
+}
+
+.comedians article:hover {
+    transform: scale(1.05);
+    /*border: none;*/
+    box-shadow: -1px 4px 64px 5px rgba(0,0,0,0.15);
+}
+
+.comedians h1 {
+    color: black;
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "Source Sans Pro", serif;
+}
+
+.comedians h2 {
+    font-family: "Source Sans Pro", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.comedians h3 {
+    font-family: "Source Sans Pro", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.comedians p {
+    font-family: "Source Sans Pro", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-top: -12px;
+}
+
+.comedians img {
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+hr {
+    max-width: 1250px;
+}
+
+.schedule-container {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-bottom: 70px;
+}
+
+.schedule {
+    background: url("img/UP-Comedy-Club-in-Chicago.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: -20px;
+}
+
+.schedule h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+
+.schedule article {
+    display: inline-block;
+    padding: 10px;
+}
+
+.schedule .time-schedule-container article:nth-of-type(1) {
+    border-right: 1px dotted white;
+}
+
+.schedule article:nth-of-type(1) {
+    width: 130px;
+}
+
+.schedule article h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: -22px;
+    margin-left: 15px;
+}
+
+.schedule article p {
+    font-size: 20px;
+}
+
+.schedule .time-schedule-container {
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+    padding: 20px 0 0 20px;
+}
+
+.schedule .time-schedule-container article:nth-of-type(1) {
+    width: 80px;
+}
+
+.wednesday-container {
+    width: 660px;
+    display: inline-block;
+    height: 250px;
+    transition: all 0.3s linear;
+    margin-top: 50px;
+}
+
+.wednesday-container:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.77);
+}
+
+.wednesday-container:hover .time-schedule-container article:nth-of-type(1) {
+    border-right: 1px dotted black;
+}
+
+
+.responsive-day-container {
+    display: none;
+}
+
+
+
+
+
+.having-fun {
+    background: url("img/dark-wood-texture-design-ideas-1.jpg");
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    margin-top: -20px;
+    text-align: center;
+}
+
+.fun-container {
+    margin: 0 auto;
+    color: black;
+    padding: 20px 0 20px 0;
+    max-width: 600px;
+}
+
+.chargeback {
+    background: rgba(255, 255, 255, 0.77);
+    padding: 10px 0 10px 0;
+    margin: 40px 0 40px 0;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+.chargeback p {
+    font-family: "Lato", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.chargeback:hover {
+    background: rgba(47, 47, 47, 0.78);
+    color: white;
+    cursor: pointer;
+}
+
+.chargeback:hover p {
+    color: white;
+}
+
+
+footer {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background: #282e28;
+}
+
+footer article{
+    display: inline-block;
+}
+
+.footer-social ul {
+    width: 280px;
+    padding: 0;
+}
+
+.footer-social {
+    padding:20px 0 50px 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 45px;
+    background: #484848;
+    padding: 6px;
+    text-align: center;
+    transition: all 0.1s linear;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.footer-social ul li:hover{
+    cursor: pointer;
+}
+
+.footer-social ul li:hover:nth-of-type(1) {
+    background: #3C5B97;
+}
+
+.footer-social ul li:hover:nth-of-type(2) {
+    background: #BE1D19;
+}
+
+.footer-social ul li:hover:nth-of-type(3) {
+    background: #2BA7DF;
+}
+
+.footer-social ul li:hover:nth-of-type(4) {
+    background:  linear-gradient(
+            200deg, #d047d1, #ff0000,    #ffff00);;
+}
+
+.footer-social ul li:hover:nth-of-type(5) {
+    background: #0196C1;
+}
+
+.footer-social ul li:hover:nth-of-type(6) {
+    background: #C91F27;
+}
+
+.footer-social ul li:hover:nth-of-type(7) {
+    background: #354f6a;
+}
+
+.footer-social ul li:hover:nth-of-type(8) {
+    background: linear-gradient(to bottom, #ea614e 0, #b8433c 100%);
+}
+
+.footer-social ul li:hover a{
+    color: white;
+}
+
+.footer-social ul li a{
+    font-size: 25px;
+}
+
+.footer-social h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+
+
+
+.footer-apps ul {
+    width: 280px;
+    padding: 0;
+}
+
+.footer-apps {
+    padding:20px 0 50px 3vw;
+    vertical-align: top;
+    margin-top: -15px;
+}
+
+.footer-apps ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 45px;
+    background: #484848;
+    padding: 6px;
+    text-align: center;
+    transition: all 0.1s linear;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.footer-apps ul li:hover{
+    cursor: pointer;
+}
+
+.footer-apps ul li:hover a{
+    color: white;
+}
+
+.footer-apps ul li a{
+    font-size: 25px;
+}
+
+.footer-apps h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.footer-apps ul li:hover:nth-of-type(1) {
+    background: #150015;
+}
+
+.footer-apps ul li:hover:nth-of-type(2) {
+    background: #85c707;
+}
+
+.footer-apps ul li:hover:nth-of-type(3) {
+    background: #2BA7DF;
+}
+
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+.contacts {
+    padding-top: 10px;
+}
+
+.contacts h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a2a2a2;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.contacts p {
+    color: #b9b9b9;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.contacts p:hover {
+    color: white;
+}
+
+footer h3 {
+    padding-bottom: 17px;
+    color: #94998d;
+    text-align: center;
+    font-weight:400;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+.open-mic {
+    background: url("img/open-mic.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.open-mic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.open-mic h1 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 660%;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 9px rgba(138, 138, 133, 1);
+    margin-right: 8vw;
+}
+
+.open-mic p {
+    max-width: 500px;
+    font-family: "Lato", serif;
+    text-transform: none;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(77, 77, 77, 0.72);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.open-mic article {
+    display: inline-block;
+}
+
+
+section.partners {
+    text-align: center;
+    background: url("https://d2ogrdw2mh0rsl.cloudfront.net/production/images/static/features/gallery-background.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}
+
+section.partners ul {
+    margin: 0;
+    padding: 15px 0;
+}
+
+section.partners li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.partners img {
+    width: 200px;
+    height:auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+/*section.partners img:hover {*/
+    /*background: rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);*/
+/*}*/
+
+/*section.partners li a:hover {*/
+    /*background: white;*/
+/*}*/
+
+>>>>>>> 96f9c09877467b75ad255073b6622f18785463e0
