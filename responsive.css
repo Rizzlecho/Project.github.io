@@ -33,7 +33,7 @@
     }
 
     .comedians .comedian-container article{
-        padding-top: 100px;
+        margin-top: 150px;
     }
 
 }
@@ -76,6 +76,10 @@
     .open-mic h1 {
         margin: 0;
     }
+
+    .parallax {
+        background-position: 25% 0;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -92,6 +96,7 @@
 
     .comedians .comedian-container article {
         width: 450px;
+        margin-top: 200px;
     }
 
     .comedians .comedian-container article h2 {
@@ -253,8 +258,8 @@
     }
 
     .comedians img {
-        width: 89%;
-        height: 84%;
+        width: 86%;
+        height: 350px;
     }
 
     .comedians .comedian-container article h2 {
@@ -354,6 +359,11 @@
         font-size: 270%;
         max-width: 350px;
         text-align: center;
+    }
+
+    .comedians img {
+        width: 86%;
+        height: 234px;
     }
 
 }
