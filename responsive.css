@@ -26,7 +26,11 @@
     background: #292929 ! important;
 }
 
-@media all and (max-width: 1650px){
+@media only screen and (max-width: 1650px){
+
+    .comedians {
+        max-width: 1520px;
+    }
 
     .comedians h3{
         padding-bottom: 10px;
@@ -34,14 +38,23 @@
 
     .comedians .comedian-container article{
         margin-top: 150px;
+        width: 20%;
+        margin-right: -10px;
     }
+
+    .comedians img {
+        width: 90%;
+        height: auto;
+    }
+
+
 
 }
 
 @media all and (max-width: 1400px) {
     /* COMEDIANS */
     .comedians {
-        max-width: 900px;
+        max-width: 1500px;
     }
 
     /*  SCHEDULE  */
@@ -69,6 +82,15 @@
 }
 
 @media only screen and (max-width: 1260px) {
+    .comedians{
+        max-width: 800px;
+    }
+
+    .comedians img {
+        width: 80%;
+        height: 234px;
+    }
+
     .open-mic-container {
         max-width: 490px;
     }
@@ -80,6 +102,12 @@
     .parallax {
         background-position: 25% 0;
     }
+
+    .comedians .comedian-container article{
+        /*margin-top: 150px;*/
+        width: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 1050px) {
@@ -327,7 +355,7 @@
     }
 
     .responsive-day-container {
-        transition: all 0.1s linear;
+        transition: all 0.3s;
     }
 
     .responsive-day-container:hover {
