@@ -10,7 +10,8 @@
     <title>Comedy Club Sofia</title>
     <script src="jquery-3.2.0.min.js"></script>
 
-    <script>$(function () {
+    <script>
+        $(function () {
         // This will select everything with the class smoothScroll
         // This should prevent problems with carousel, scrollspy, etc...
         $('.smoothScroll').click(function () {
@@ -26,10 +27,25 @@
             }
         });
     });
+    </script>
 
-    // Change the speed to whatever you want
-    // Personally i think 1000 is too much
-    // Try 800 or below, it seems not too much but it will make a difference</script>
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
+
+
 
 </head>
 <body>
@@ -56,6 +72,8 @@
 </header>
 
 <main>
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
     <section class="comedian-section" id="comedians">
         <div class="comedians">
             <h1>Comedians</h1>
@@ -237,6 +255,7 @@
             <li><a href="#"><img src="img/offnews.png"/></a></li>
         </ul>
     </section>
+
 
 
 </main>
